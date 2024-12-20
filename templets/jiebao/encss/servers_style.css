@@ -1,0 +1,6 @@
+.pcontent{width:980px;margin:0 auto;padding-top:30px;height:100%;}
+.pcontent .pctitle{margin-bottom:30px;padding-bottom:18px;border-bottom:2px solid #636363;}
+.pcontent .pleftnav{float:left;width:200px;margin-right:50px;}
+.pcontent .pleftnav li{height:71px;width:214px;float:left;border-bottom:1px solid #417675;display:block;}
+.pcontent .pleftnav li a{height:61px;padding-left:15px;color:#89AAA9;padding-top:10px;width:160px;padding-right:39px;float:left;background:url(../enimages/p_leftnavbg2.png) no-repeat #125452;display:block;}
+.pcontent .pleftnav li a:hover,.pcontent .pleftnav li a.active{height:61px;color:#fff;background:url(../enimages/p_leftnavbgHover2.png) no-repeat #176966;}
