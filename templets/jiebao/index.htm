@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:global.cfg_webname/}</title>
+<meta name="description" content="{dede:global.cfg_description/}" />
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/base.css">
+<link rel="stylesheet"  href="{dede:global.cfg_templets_skin/}/css/global.css">
+<link rel="stylesheet"  href="{dede:global.cfg_templets_skin/}/css/mogFocus.css">
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/easing.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/MogFocus.js"></script>
+<script src="{dede:global.cfg_templets_skin/}/js/jquery-navdrop.js" type="text/javascript"></script>
+<script src="{dede:global.cfg_templets_skin/}js/jquery-dropli.js" type="text/javascript"></script>
+<script type="text/javascript">
+jQuery(function(){
+	//demo2
+	jQuery("#focus2").mogFocus({
+		loadAnimation : false,
+		time : 8000,
+		animationWay : 'fade',
+		prevNextToggle : 'toggle',
+		btnStyle : 'noNumber',
+		prevNextToggle : "show",
+		focusDelay: 0,
+		focusDelayTwo :0
+	});
+	
+	
+});
+</script>
+</head>
+<body>
+<div class="wrap">
+{dede:include filename="head.htm"/}
+<div class="banner">
+ <div id="focus2">
+	<div class="focusWarp">
+		<ul class="imgList">
+			<li><a href="#"><img src="{dede:global.cfg_templets_skin/}/images/homebanner01.jpg" width="1440" height="500" /></a></li>
+			<li><a href="#"><img src="{dede:global.cfg_templets_skin/}/images/homebanner02.jpg" width="1440" height="500" /></a></li>
+			<li><a href="#"><img src="{dede:global.cfg_templets_skin/}/images/homebanner03.jpg" width="1440" height="500" /></a></li>
+			<li><a href="#"><img src="{dede:global.cfg_templets_skin/}/images/homebanner04.jpg" width="1440" height="500" /></a></li>
+            <li><a href="#"><img src="{dede:global.cfg_templets_skin/}/images/homebanner05.jpg" width="1440" height="500" /></a></li>
+            <li><a href="#"><img src="{dede:global.cfg_templets_skin/}/images/homebanner06.jpg" width="1440" height="500" /></a></li>
+            <li><a href="#"><img src="{dede:global.cfg_templets_skin/}/images/homebanner07.jpg" width="1440" height="500" /></a></li>
+		</ul>
+		<ul class="imgList_two">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+            <li></li>
+			<li></li>
+			<li></li>
+		</ul>
+      </div>
+</div>
+</div>
+<div class="content">
+	<div class="hslogan"><img src="{dede:global.cfg_templets_skin/}/images/home_kvtitle.jpg" width="683" height="50"  /></div>
+	<ul class="hserver">
+		<li class="hser1"><a href="/fuwufanwei/gongyesheji/"><span class="hstopbg"></span></a><span class="hstitle">汽车设计</span></li>
+		<li class="hser2"><a href="/fuwufanwei/hangkongqicaizhuangshitiehuashejiyuzhizuo/"><span class="hstopbg"></span></a><span class="hstitle">飞机工业设计</span></li>
+		<li class="hser3"><a href="/fuwufanwei/qichetiehuashejiyuzhizuo/"><span class="hstopbg"></span></a><span class="hstitle">工程机械新车型<br>设计开发</span></li>
+		<li class="hser4"><a href="/fuwufanwei/nongyezhuangbeitiehuashejiyuzhizuo/"><span class="hstopbg"></span></a><span class="hstitle">农业装备新车型<br/>设计开发</span></li>
+		<li class="hser5"><a href="/fuwufanwei/gongchengjixietiehuashejiyuzhizuo/"><span class="hstopbg"></span></a><span class="hstitle">模具设计<br/>开发与制作</span></li>
+        <li class="hser6"><a href="/fuwufanwei/qitaxingyechanpinwaiguandezhuangshishejiyuzhizuo/"><span class="hstopbg"></span></a><span class="hstitle">覆盖件加工<br/>制造与销售</span></li>
+	</ul>
+	<div class="clear"></div>
+</div>
+<div class="footer">
+	<div class="foot_con">
+		<ul>
+			<li style="margin-left:0px;">
+				<p class="ftitle1">我们的优势</p>
+				<p>一流设计水准<br/>一站式系统解决方案<br/>持续紧密服务
+				</p>
+			</li>
+			<li>
+				<p class="ftitle1">关于我们</p>
+				<p>上海迅捷汽车科技有限公司（ 以下简称“公司” ）是一家集汽车、重工、农业装备新车型开发、样车（机）试制、模具设计与开发、覆盖件及内外饰件开发与销售等业务于一体的高新技术开发企业。
+				</p></li>
+			<li>
+				<p class="ftitle1">最新动态</p>
+				
+                   {dede:arclist titlelen=42 row=6 typeid=7}
+                <p>
+				<a href="[field:arcurl/]">[field:title/]</a>
+				</p>
+                {/dede:arclist}
+			</li>
+			<li>
+				<p class="ftitle1">联系我们</p>
+				<p><img src="{dede:global.cfg_templets_skin/}/images/footer_logo.jpg"></p>
+				<p>地址:上海市浦东新区新金桥路58号25C<br/>工厂地址：江苏省常州市小河镇<br/>Tel:021-58341317<br/>FAX:021-58343147*8001<br/>Mail:  xjtec01@163.com
+				</p>
+			</li>
+		</ul>
+	</div>
+</div>
+{dede:include filename="footer.htm"/}
+<!--my link end--></body>
+</html>
