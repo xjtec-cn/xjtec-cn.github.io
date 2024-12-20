@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Shanghai Xunjie Industrial Design Co., Ltd</title>
+<meta name="description" content="{dede:global.cfg_description/}" />
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/encss/base.css">
+<link rel="stylesheet"  href="{dede:global.cfg_templets_skin/}/encss/global.css">
+<link rel="stylesheet"  href="{dede:global.cfg_templets_skin/}/encss/mogFocus.css">
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/easing.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/MogFocus.js"></script>
+<script src="{dede:global.cfg_templets_skin/}/js/jquery-navdrop.js" type="text/javascript"></script>
+<script src="{dede:global.cfg_templets_skin/}js/jquery-dropli.js" type="text/javascript"></script>
+<script type="text/javascript">
+jQuery(function(){
+	//demo2
+	jQuery("#focus2").mogFocus({
+		loadAnimation : false,
+		time : 8000,
+		animationWay : 'fade',
+		prevNextToggle : 'toggle',
+		btnStyle : 'noNumber',
+		prevNextToggle : "show",
+		focusDelay: 0,
+		focusDelayTwo :0
+	});
+	
+	
+});
+</script>
+</head>
+<body>
+<div class="wrap">
+{dede:include filename="head_en.htm"/}
+<div class="banner">
+ <div id="focus2">
+	<div class="focusWarp">
+		<ul class="imgList">
+			<li><a href="#"><img src="{dede:global.cfg_templets_skin/}/enimages/homebanner01.jpg" width="1440" height="500" /></a></li>
+			<li><a href="#"><img src="{dede:global.cfg_templets_skin/}/enimages/homebanner02.jpg" width="1440" height="500" /></a></li>
+			<li><a href="#"><img src="{dede:global.cfg_templets_skin/}/enimages/homebanner03.jpg" width="1440" height="500" /></a></li>
+			<li><a href="#"><img src="{dede:global.cfg_templets_skin/}/enimages/homebanner04.jpg" width="1440" height="500" /></a></li>
+            <li><a href="#"><img src="{dede:global.cfg_templets_skin/}/enimages/homebanner05.jpg" width="1440" height="500" /></a></li>
+            <li><a href="#"><img src="{dede:global.cfg_templets_skin/}/enimages/homebanner06.jpg" width="1440" height="500" /></a></li>
+            <li><a href="#"><img src="{dede:global.cfg_templets_skin/}/enimages/homebanner07.jpg" width="1440" height="500" /></a></li>
+		</ul>
+		<ul class="imgList_two">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+            <li></li>
+			<li></li>
+			<li></li>
+		</ul>
+      </div>
+</div>
+</div>
+<div class="content">
+	<div class="hslogan"><img src="{dede:global.cfg_templets_skin/}/enimages/home_kvtitle.jpg" width="683" height="50"  /></div>
+	<ul class="hserver">
+		<li class="hser1"><a href="/Services/Car_design/"><span class="hstopbg"></span></a><span class="hstitle">Car design</span></li>
+		<li class="hser2"><a href="/Services/Aerospace_Industrial_Design/"><span class="hstopbg"></span></a><span class="hstitle">Aerospace Industrial Design</span></li>
+		<li class="hser3"><a href="/Services/Construction_Machinery_Industrial_Design/"><span class="hstopbg"></span></a><span class="hstitle">Constuction Machinary Industrial Design</span></li>
+		<li class="hser4"><a href="/Services/Agricultural_Machinery_Industrial_Design/"><span class="hstopbg"></span></a><span class="hstitle">Agricultural Machinery Industrial Design</span></li>
+		<li class="hser5"><a href="/Services/Mold_development_and_manufacture/"><span class="hstopbg"></span></a><span class="hstitle">Mold development and manufacture</span></li>
+        <li class="hser6"><a href="/Services/Panel_manufacture_and_marketing/"><span class="hstopbg"></span></a><span class="hstitle">Metal parts manufacturing and marketing</span></li>
+	</ul>
+	<div class="clear"></div>
+</div>
+<div class="footer">
+	<div class="foot_con">
+		<ul>
+			<li style="margin-left:0px;">
+				<p class="ftitle1">Our Advantages</p>
+				<p>World-class design level<br/>Total design service<br/>Continuously close service
+				</p>
+			</li>
+			<li>
+				<p class="ftitle1">About Us</p>
+				<p>Shanghai Xunjie design company is a intergraded high-tech enterprise which includes the design of car ,construction machinery, agricultural machinery, prototyping, mold development and manufacturing, the development and marketing of the exterior panel and car trimming.。
+				</p></li>
+			<li>
+				<p class="ftitle1">Hot News</p>
+				
+                   {dede:arclist titlelen=42 row=6 typeid=24}
+                <p>
+				<a href="[field:arcurl/]">[field:title/]</a>
+				</p>
+                {/dede:arclist}
+			</li>
+			<li>
+				<p class="ftitle1">Contact Us</p>
+				<p><img src="{dede:global.cfg_templets_skin/}/enimages/footer_logo.jpg"></p>
+				<p>Address:25C,No.58, Xin Jinqiao Road, Pudong New District, Shanghai<br/>Factory address: Xiaohe Town, Changzhou City, Jiangsu Province<br/>Tel:021-58341317<br/>FAX:021-58343147*8001<br/>Mail:  xjtec01@163.com
+				</p>
+			</li>
+		</ul>
+	</div>
+</div>
+{dede:include filename="footer_en.htm"/}
+</div>
+</body>
+</html>
